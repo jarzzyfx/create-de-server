@@ -1,8 +1,10 @@
+
 {
-  "name": "de-server",
+  "name": "@create-de-server",
   "version": "1.0.0",
   "description": "",
   "main": "/public/index.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "node public/index.js",
     "dev": "nodemon src/index.ts",
