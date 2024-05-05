@@ -1,7 +1,6 @@
-
 {
-  "name": "@create-de-server",
-  "version": "1.0.0",
+  "name": "create-de-server",
+  "version": "1.0.1",
   "description": "",
   "main": "/public/index.js",
   "bin": "./bin/cli.js",
@@ -10,6 +9,10 @@
     "dev": "nodemon src/index.ts",
     "build": "npx tsc",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarzzyfx/create-de-server"
   },
   "keywords": [],
   "author": "",
